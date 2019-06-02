@@ -1,18 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,500|Roboto:300&display=swap");
 h1 {
-    line-height: 1rem;
-    font-size: 4rem;
-    margin-bottom: 3rem;
-    font-family: $ff-heading;
+    font: 500 4rem/1rem $ff-heading;
     color: $clr-heading;
+    margin-bottom: 3rem;
 }
 
 p {
-    font-weight: 400;
-    font-family: $ff-body;
+    font: 400 1.2rem/2rem $ff-body;
     color: $clr-text-dark;
-    font-size: 1.2rem;
-    line-height: 2rem;
     text-align: justify;
     margin-top: 1rem;
 }

@@ -27,18 +27,13 @@ html.transition {
   transition-delay: 0 !important; }
 
 h1 {
-  line-height: 1rem;
-  font-size: 4rem;
-  margin-bottom: 3rem;
-  font-family: "Oswald";
-  color: #4a9bb1; }
+  font: 500 4rem/1rem "Oswald";
+  color: #4a9bb1;
+  margin-bottom: 3rem; }
 
 p {
-  font-weight: 400;
-  font-family: "Roboto";
+  font: 400 1.2rem/2rem "Roboto";
   color: #292d3e;
-  font-size: 1.2rem;
-  line-height: 2rem;
   text-align: justify;
   margin-top: 1rem; }
 
