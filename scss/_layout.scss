@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: $bg-light;
+    .main {
+        max-width: 60rem;
+        padding: 5rem;
+        border-radius: 1rem;
+    }
+    .toggle-container {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+}
+
+html[data-theme="dark"] {
+    background: $bg-dark;
+    p {
+        color: lighten($clr-text-dark, 50);
+    }
+}
+
+html.transition {
+    transition: all 750ms !important;
+    transition-delay: 0 !important;
+}
